@@ -1,0 +1,24 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+  background-image: url('./bamboo.jpg');
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bamboozle {
+  font-family: monospace;
+  font-size: 10em;
+  text-align: center;
+  word-break: break-all;
+
+  color: whitesmoke;
+}
