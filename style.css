@@ -4,7 +4,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+/* 	height: 100%;
 
   background-image: url('./bamboo.jpg');
   background-size: cover;
@@ -12,6 +12,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  */
+}
+
+h1 {
+  margin: 0;
 }
 
 .bamboozle {
@@ -21,4 +26,15 @@ body {
   word-break: break-all;
 
   color: whitesmoke;
+}
+
+.static {
+min-height: 20em;
+background: url('./bamboo.jpg') 50% 50% fixed; /* backgroung-attachment:  fixed;*/
+background-size: cover;
+}
+
+.slide {
+min-height: 20em;
+background-image: url('cvivy.jpg');
 }
