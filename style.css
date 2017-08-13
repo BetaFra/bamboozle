@@ -30,11 +30,11 @@ h1 {
 
 .static {
 min-height: 20em;
-background: url('./bamboo.jpg') 50% 50% fixed; /* backgroung-attachment:  fixed;*/
+background: url('./bamboo.jpg') 50% 50% fixed; /* or use: backgroung-attachment: fixed;*/
 background-size: cover;
 }
 
 .slide {
-min-height: 20em;
+min-height: 30em;
 background-image: url('cvivy.jpg');
 }
